@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-item:not(:last-child) {
+        @apply mb-5;
+    }
+}

@@ -15,12 +15,30 @@
 
 <body>
   <header>
-    <div class="container">
-      <div class="row">
+    <div class="container max-w-full">
+      <div class="row flex justify-between items-center py-8">
         <div class="col">
           <img src="./assets/images/logo.svg" alt="News Homepage" class="logo">
         </div>
-        <nav class="col">
+        <div class="col">
+          <button class="open-menu" id="open-menu">
+            <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#00001A" fill-rule="evenodd">
+                <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+                <path d="M0 0h40v3H0z" />
+              </g>
+            </svg>
+          </button>
+        </div>
+        <nav class="col hidden bg-white fixed top-0 right-0 w-3/4 h-full ml-auto pr-5 pl-8">
+          <button class="close-menu w-full h-[104px] text-right flex items-center justify-end mb-10" id="close-menu">
+            <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#00001A" fill-rule="evenodd">
+                <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+                <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+              </g>
+            </svg>
+          </button>
           <ul class="nav-list">
             <li class="nav-item">
               <a href="" class="nav-link text">Home</a>
