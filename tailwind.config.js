@@ -12,6 +12,9 @@ module.exports = {
         '2xl': '6rem',
       },
     },
+    fontFamily: {
+      'inter': ['Inter', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
