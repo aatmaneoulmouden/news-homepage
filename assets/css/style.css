@@ -745,6 +745,21 @@ video {
   clear: none;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -856,12 +871,12 @@ video {
   display: none;
 }
 
-.h-\[104px\]{
-  height: 104px;
+.aspect-square{
+  aspect-ratio: 1 / 1;
 }
 
-.h-full{
-  height: 100%;
+.h-\[104px\]{
+  height: 104px;
 }
 
 .h-screen{
@@ -2044,6 +2059,11 @@ video {
   vertical-align: super;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2051,6 +2071,10 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-extrabold{
+  font-weight: 800;
 }
 
 .uppercase{
