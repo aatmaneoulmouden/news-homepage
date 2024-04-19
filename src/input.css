@@ -8,6 +8,11 @@
     * {
         @apply font-inter;
     }
+
+    .text {
+        @apply text-lg leading-8 text-dark-grayish-blue;
+    }
+
     .nav-item:not(:last-child) {
         @apply mb-6;
     }

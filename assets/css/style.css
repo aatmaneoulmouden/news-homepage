@@ -606,6 +606,13 @@ video {
   font-family: Inter, sans-serif;
 }
 
+.text{
+  font-size: 1.125rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: hsl(236 13% 42% / var(--tw-text-opacity));
+}
+
 .nav-item:not(:last-child){
   margin-bottom: 1.5rem;
 }
@@ -745,16 +752,6 @@ video {
   clear: none;
 }
 
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-7{
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -762,6 +759,10 @@ video {
 
 .mb-10{
   margin-bottom: 2.5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
 }
 
 .ml-auto{
@@ -875,12 +876,24 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-\[104px\]{
   height: 104px;
 }
 
 .h-screen{
   height: 100vh;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-\[70\%\]{
@@ -901,6 +914,11 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-full{
@@ -1870,6 +1888,36 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-dark-grayish-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(236 13% 42% / var(--tw-bg-opacity));
+}
+
+.bg-grayish-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 8% 79% / var(--tw-bg-opacity));
+}
+
+.bg-off-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(36 100% 99% / var(--tw-bg-opacity));
+}
+
+.bg-soft-orange{
+  --tw-bg-opacity: 1;
+  background-color: hsl(35 77% 62% / var(--tw-bg-opacity));
+}
+
+.bg-soft-red{
+  --tw-bg-opacity: 1;
+  background-color: hsl(5 85% 63% / var(--tw-bg-opacity));
+}
+
+.bg-very-dark-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(240 100% 5% / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1985,6 +2033,11 @@ video {
      object-fit: scale-down;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -1993,6 +2046,16 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-8{
@@ -2067,6 +2130,11 @@ video {
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -2145,6 +2213,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.tracking-\[4px\]{
+  letter-spacing: 4px;
+}
+
 .text-\[\#336699\]\/\[\.35\]{
   color: rgb(51 102 153 / .35);
 }
@@ -2152,6 +2224,16 @@ video {
 .text-blue-500{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-off-white{
+  --tw-text-opacity: 1;
+  color: hsl(36 100% 99% / var(--tw-text-opacity));
+}
+
+.text-very-dark-blue{
+  --tw-text-opacity: 1;
+  color: hsl(240 100% 5% / var(--tw-text-opacity));
 }
 
 .underline{
