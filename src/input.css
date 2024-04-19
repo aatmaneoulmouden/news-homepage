@@ -16,4 +16,20 @@
     .nav-item:not(:last-child) {
         @apply mb-6;
     }
+
+    .new {
+        @apply py-5;
+    }
+
+    .new:not(:last-child) {
+        @apply border-b;
+    }
+
+    .new-title {
+        @apply font-bold mb-2;
+    }
+
+    .subtitle {
+        @apply leading-7 text-grayish-blue;
+    }
 }

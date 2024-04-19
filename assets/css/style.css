@@ -617,6 +617,26 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.new{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.new:not(:last-child){
+  border-bottom-width: 1px;
+}
+
+.new-title{
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.subtitle{
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: hsl(233 8% 79% / var(--tw-text-opacity));
+}
+
 .sr-only{
   position: absolute;
   width: 1px;
@@ -761,6 +781,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -771,6 +795,10 @@ video {
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
 }
 
 .box-border{
@@ -888,10 +916,6 @@ video {
   height: 100vh;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
 .w-10{
   width: 2.5rem;
 }
@@ -912,13 +936,13 @@ video {
   width: weird-and-invalid;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-full{
@@ -1259,6 +1283,10 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -1441,6 +1469,10 @@ video {
 
 .justify-items-stretch{
   justify-items: stretch;
+}
+
+.gap-14{
+  gap: 3.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2033,9 +2065,19 @@ video {
      object-fit: scale-down;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-6{
@@ -2048,22 +2090,16 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pl-8{
   padding-left: 2rem;
 }
 
 .pr-5{
   padding-right: 1.25rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-left{
@@ -2120,6 +2156,11 @@ video {
 
 .align-super{
   vertical-align: super;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl{
@@ -2229,6 +2270,11 @@ video {
 .text-off-white{
   --tw-text-opacity: 1;
   color: hsl(36 100% 99% / var(--tw-text-opacity));
+}
+
+.text-soft-orange{
+  --tw-text-opacity: 1;
+  color: hsl(35 77% 62% / var(--tw-text-opacity));
 }
 
 .text-very-dark-blue{
