@@ -26,10 +26,38 @@
     }
 
     .new-title {
-        @apply font-bold mb-2;
+        @apply font-bold text-lg mb-2;
     }
 
-    .subtitle {
+    .new-subtitle {
         @apply leading-7 text-grayish-blue;
+    }
+
+    .post {
+        @apply flex items-center gap-5;
+    }
+
+    .post-img-wrapper {
+        @apply w-2/6 flex self-stretch;
+    }
+
+    .post-img-wrapper img {
+        @apply w-full h-full object-cover;
+    }
+
+    .post-content-wrapper {
+        @apply flex-1;
+    }
+
+    .post-number {
+        @apply text-4xl text-grayish-blue font-bold;
+    }
+
+    .post-title {
+        @apply font-extrabold text-lg my-2;
+    }
+
+    .post-subtitle {
+        @apply leading-6 text-base;
     }
 }
