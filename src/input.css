@@ -13,12 +13,16 @@
         @apply text-lg leading-8 text-dark-grayish-blue;
     }
 
+    .nav-link {
+        @apply ease-linear duration-200 hover:text-soft-red;
+    }
+
     .mobile-nav .nav-item:not(:last-child) {
         @apply mb-6;
     }
 
     .new {
-        @apply py-5 lg:py-7;
+        @apply py-5 lg:py-7 cursor-pointer;
     }
 
     .new:not(:last-child) {
@@ -26,7 +30,7 @@
     }
 
     .new-title {
-        @apply font-bold text-lg mb-2;
+        @apply font-bold text-lg mb-2 ease-linear duration-200 group-hover:text-soft-orange;
     }
 
     .new-subtitle {
@@ -34,7 +38,7 @@
     }
 
     .post {
-        @apply flex items-center gap-5;
+        @apply flex items-center gap-5 cursor-pointer;
     }
 
     .post-img-wrapper {
@@ -54,7 +58,7 @@
     }
 
     .post-title {
-        @apply font-extrabold text-lg my-2;
+        @apply font-extrabold text-lg my-2 ease-linear duration-200 group-hover:text-soft-red;
     }
 
     .post-subtitle {
