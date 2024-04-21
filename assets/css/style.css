@@ -651,7 +651,7 @@ video {
   align-self: stretch;
 }
 
-.post-img-wrapper img{
+img{
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -950,20 +950,12 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
 .h-\[104px\]{
   height: 104px;
 }
 
 .h-screen{
   height: 100vh;
-}
-
-.w-10{
-  width: 2.5rem;
 }
 
 .w-\[70\%\]{
@@ -1970,26 +1962,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-dark-grayish-blue{
-  --tw-bg-opacity: 1;
-  background-color: hsl(236 13% 42% / var(--tw-bg-opacity));
-}
-
-.bg-grayish-blue{
-  --tw-bg-opacity: 1;
-  background-color: hsl(233 8% 79% / var(--tw-bg-opacity));
-}
-
-.bg-off-white{
-  --tw-bg-opacity: 1;
-  background-color: hsl(36 100% 99% / var(--tw-bg-opacity));
-}
-
-.bg-soft-orange{
-  --tw-bg-opacity: 1;
-  background-color: hsl(35 77% 62% / var(--tw-bg-opacity));
-}
-
 .bg-soft-red{
   --tw-bg-opacity: 1;
   background-color: hsl(5 85% 63% / var(--tw-bg-opacity));
@@ -2130,19 +2102,13 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .pl-8{
@@ -2153,20 +2119,12 @@ video {
   padding-right: 1.25rem;
 }
 
-.pt-5{
-  padding-top: 1.25rem;
-}
-
-.pb-8{
-  padding-bottom: 2rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
 .pt-14{
   padding-top: 3.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-left{
@@ -2334,6 +2292,11 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.text-dark-grayish-blue{
+  --tw-text-opacity: 1;
+  color: hsl(236 13% 42% / var(--tw-text-opacity));
+}
+
 .text-off-white{
   --tw-text-opacity: 1;
   color: hsl(36 100% 99% / var(--tw-text-opacity));
@@ -2347,11 +2310,6 @@ video {
 .text-very-dark-blue{
   --tw-text-opacity: 1;
   color: hsl(240 100% 5% / var(--tw-text-opacity));
-}
-
-.text-dark-grayish-blue{
-  --tw-text-opacity: 1;
-  color: hsl(236 13% 42% / var(--tw-text-opacity));
 }
 
 .underline{

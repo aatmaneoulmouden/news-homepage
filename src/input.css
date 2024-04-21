@@ -41,7 +41,7 @@
         @apply w-2/6 flex self-stretch;
     }
 
-    .post-img-wrapper img {
+    img {
         @apply w-full h-full object-cover;
     }
 
