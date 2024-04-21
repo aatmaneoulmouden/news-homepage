@@ -16,11 +16,11 @@
 <body>
   <header>
     <div class="container max-w-full">
-      <div class="row flex justify-between items-center py-8">
+      <div class="row flex justify-between items-center py-8 lg:py-10">
         <div class="col">
           <img src="./assets/images/logo.svg" alt="News Homepage" class="logo">
         </div>
-        <div class="col">
+        <div class="col block lg:hidden">
           <button class="open-menu" id="open-menu">
             <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
               <g fill="#00001A" fill-rule="evenodd">
@@ -30,7 +30,26 @@
             </svg>
           </button>
         </div>
-        <nav class="col hidden bg-white fixed top-0 right-0 w-[70%] h-screen ml-auto pr-5 pl-8">
+        <nav class="col desktop-nav hidden lg:block">
+          <ul class="nav-list flex items-center gap-8">
+            <li class="nav-item">
+              <a href="" class="nav-link text">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text">New</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text">Categories</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="col mobile-nav hidden bg-white fixed top-0 right-0 w-[70%] h-screen ml-auto pr-5 pl-8">
           <button class="close-menu w-full h-[104px] text-right flex items-center justify-end mb-10" id="close-menu">
             <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
               <g fill="#00001A" fill-rule="evenodd">
@@ -63,17 +82,21 @@
 
   <main>
     <div class="container max-w-full">
-      <div class="row grid grid-cols-1 gap-14 mb-14 lg:grid-cols-3">
+      <div class="row grid grid-cols-1 gap-y-14 gap-x-8 mb-14 lg:grid-cols-3">
         <div class="col main-new lg:col-span-2">
           <div class="banner-wrapper">
             <img src="./assets/images/image-web-3-mobile.jpg" alt="The Bright Future of Web 3.0?"
               class="banner aspect-square block lg:hidden">
-            <img src="./assets/images/image-web-3-desktop.jpg" alt="The Bright Future of Web 3.0?" class="banner hidden lg:block lg:h-[264px]">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="The Bright Future of Web 3.0?"
+              class="banner hidden lg:block lg:h-[264px]">
           </div>
           <div class="data-wrapper mt-8 lg:mt-6 grid grid-cols-1 lg:grid-cols-2">
-            <h1 class="title text-5xl text-very-dark-blue font-extrabold mb-7 lg:text-[64px] lg:max-w-[80%] lg:leading-[74px]">The Bright Future of Web 3.0?</h1>
+            <h1
+              class="title text-5xl text-very-dark-blue font-extrabold mb-7 lg:text-[64px] lg:max-w-[80%] lg:leading-[74px]">
+              The Bright Future of Web 3.0?</h1>
             <div class="content">
-              <p class="text mb-8 lg:mb-6">We dive into the next evolution of the web that claims to put the power of the
+              <p class="text mb-8 lg:mb-6">We dive into the next evolution of the web that claims to put the power of
+                the
                 platforms
                 back into the
                 hands of the people. But is it really fulfilling its promise?</p>
