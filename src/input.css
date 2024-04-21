@@ -18,7 +18,7 @@
     }
 
     .new {
-        @apply py-5;
+        @apply py-5 lg:py-7;
     }
 
     .new:not(:last-child) {
