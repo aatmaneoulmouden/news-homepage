@@ -63,12 +63,12 @@
 
   <main>
     <div class="container max-w-full">
-      <div class="row grid grid-cols-1 gap-14 mb-14">
-        <div class="col main-new">
+      <div class="row grid grid-cols-1 gap-14 mb-14 lg:grid-cols-3">
+        <div class="col main-new lg:col-span-2">
           <div class="banner-wrapper">
             <img src="./assets/images/image-web-3-mobile.jpg" alt="The Bright Future of Web 3.0?"
-              class="banner aspect-square">
-            <!-- <img src="./assets/images/image-web-3-desktop.jpg" alt="The Bright Future of Web 3.0?" class="banner"> -->
+              class="banner aspect-square block lg:hidden">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="The Bright Future of Web 3.0?" class="banner hidden lg:block">
           </div>
           <div class="data-wrapper">
             <h1 class="title text-5xl text-very-dark-blue font-extrabold my-7">The Bright Future of Web 3.0?</h1>
@@ -102,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div class="row grid grid-cols-1 gap-5">
+      <div class="row grid grid-cols-1 gap-5 lg:grid-cols-3">
         <article class="col post">
           <div class="post-img-wrapper">
             <img src="./assets/images/image-retro-pcs.jpg" alt="Reviving Retro PCs">
