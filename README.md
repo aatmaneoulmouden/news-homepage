@@ -27,7 +27,7 @@ Users can:
 
 ### Links
 
-- Solution URL: [See the solution](https://your-solution-url.com)
+- Solution URL: [See the solution](https://www.frontendmentor.io/solutions/a-responsive-news-homepage-with-semantic-html5-tailwind-and-vanilla-_U9otY3wQa)
 - Live Site URL: [Preview the solution](https://aatmaneoulmouden.github.io/news-homepage/)
 
 ## My process
